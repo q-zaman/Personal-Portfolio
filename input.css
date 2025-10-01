@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+
+
+/* Import SUSE Mono from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=SUSE+Mono:wght@300;400;500;600;700&display=swap');
+@layer utilities {
+  .suse-mono {
+    font-family: "SUSE Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
+
+.title-1{
+    font-family: "SUSE Mono", monospace;
+}
+
+.main-btn{
+    font-family: "SUSE Mono", monospace;
+    font-weight: 400; /* default weight */
+  font-style: normal;
+}
+
+.title-2{
+  font-family: "Epilogue", sans-serif;
+}
+
+.para-2{
+  font-family: "Epilogue", sans-serif;
+}
+
+
+        

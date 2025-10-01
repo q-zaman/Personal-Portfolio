@@ -1,0 +1,479 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body class="m-auto ">
+<!-- Only Mobile Menu -->
+
+
+<header class="bg-white md:hidden">
+    <div class="flex justify-between items-center px-6 py-4 min-w-[100%]">
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <a href="/" class="font-serif font-bold text-2xl text-black">LOGO</a>
+      </div>
+
+      <!-- Hamburger button (mobile only) -->
+      <button id="menu-btn" class="md:hidden flex flex-col gap-1.5 focus:outline-none">
+        <span class="w-6 h-0.5 bg-black"></span>
+        <span class="w-6 h-0.5 bg-black"></span>
+        <span class="w-6 h-0.5 bg-black"></span>
+      </button>
+
+      
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav id="mobile-menu" class="hidden fixed top-[60px] h-full left-0 flex-col space-y-4 px-6 py-4 bg-gray-100 w-[100vw] max-w-[100%] rounded-r-lg md:hidden">
+      <a href="#" class="para-2 text-2xl font-medium hover:text-white block">About</a>
+      <a href="#" class="para-2 text-2xl font-medium hover:text-white block">Work</a>
+      <a href="#" class="para-2 text-2xl font-medium hover:text-white block">Contact</a>
+    </nav>
+  </header>
+
+
+
+
+
+
+    <!-- All devices Menu -->
+<div class="max-w-[92vw] m-auto hidden md:block">
+    <header class="flex flex-row justify-between items-center py-5">
+      
+        <a href="/" class="font-serif font-bold text-2xl">LOGO</a>
+      
+        <nav>
+            <ul class="flex justify-end gap-10 text-xl list-none font-medium text-gray-600 font-sans">
+                <li><a href="/about" class="hover:text-black">About</a></li>
+                <li><a href="/work" class="hover:text-black">Work</a></li>
+                <li><a href="/contact" class="hover:text-black">Contact</a></li>
+            </ul>
+        </nav>
+    </header> 
+</div>
+
+<main>
+    <div class="flex md:flex-row flex-col max-w-[92vw] lg:max-w-[90vw] m-auto items-center h-[60vh] gap-8 pt-10 md:pt-10">
+        <div class="flex-1"> 
+            <div class="flex flex-row gap-3 md:text-[22px] text-[15px] text-[#2D2D2D] font-medium">
+                <p>Branding</p>
+                <p>| Image making</p>
+            </div>
+            
+            <div>
+                <h1 class="title-1 font-bold text-4xl md:text-6xl text-[#2D2D2D] py-[30px]">Visual Designer</h1>
+                <p class="text-1xl font-medium text-[#5b5252]">This is a template Figma file, turned into code using Anima.
+                    <br class="hidden md:block">Learn more at AnimaApp.com
+                </p>
+                <button class="main-btn mt-9 text-2xl font-medium bg-[#2D2D2D] md:py-6 md:px-[60px] py-[15px] px-[30px] text-white">Contact</button>
+            </div>
+        </div>
+
+        <div class="flex-1 flex justify-center"> <img src="./Images/HeaderImage 1.png" alt="Abstract design portfolio examples">
+        </div>
+    </div>
+
+    <section class="hidden md:flex flex-row m-auto justify-evenly py-16">
+        <div>
+            <img src="./Images/Group 5334.png" alt="Logo of company 1">
+        </div>
+        <div>
+            <img src="./Images/image 7 (Traced).png" alt="Logo of company 2">
+        </div>
+        <div>
+            <img src="./Images/image 1 (Traced).png" alt="Logo of company 3">
+        </div>
+        <div>
+            <img src="./Images/image 2 (Traced).png" alt="Logo of company 4">
+        </div>
+        <div>
+            <img src="./Images/image 5 (Traced).png" alt="Logo of company 5">
+        </div>
+    </section>
+</main>
+
+<!-- Features Section -->
+
+<section class="max-w-[95vw] m-auto py-20 mt-24 md:mt-0">
+    <div class="flex md:flex-row flex-col m-auto justify-evenly py-9 gap-11">
+        <div class="basis-[28%]">
+            <div class="flex m-auto justify-center items-center h-[150px] w-[150px] bg-[#F3AFA8] rounded-t-full">
+            <!-- Arrow Container -->
+            <div class="flex items-center w-[100px] h-[50px] rotate-135 relative -left-2 -bottom-2">
+                <div class="-rotate-225 w-0 h-0 border border-t-0 border-r-[3px] border-b-[3px] border-l-0 p-[3px] mr-[-8px]"></div>
+                <div class="w-[80%] h-[2px] bg-black"></div>
+                <div class="w-0 h-0 border border-t-[3.5px] border-b-[3.5px] border-l-[3.5px] border-r-[3.5px]"></div>
+            </div>
+            </div>
+            <!-- Features Content -->
+            <div class="py-8">
+                <h2 class="title-2 text-3xl font-medium text-gray-700 text-center pb-4">Product Design</h2>
+                <p class="para-2 text-center text-[17px] text-gray-500">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+            </div>
+        </div>
+        
+        <div class="basis-[28%]" >
+            <div class="flex m-auto justify-center items-center h-[150px] w-[150px] bg-[#FF6250] rounded-tr-full">
+            <!-- Arrow Container -->
+            <div class="flex items-center w-[100px] h-[50px] rotate-135 relative left-7 bottom-7">
+                <div class=" rotate-45 w-0 h-0 border border-t-[3.5px] border-b-[3.5px] border-l-[3.5px] border-r-[3.5px]  "></div>
+                <div class="w-[80%] h-[2px] bg-black"></div>
+                <div class="rotate-45 w-0 h-0 border border-t-[3.5px] border-b-[3.5px] border-l-[3.5px] border-r-[3.5px] "></div>
+            </div>
+            </div>
+            <!-- Features Content -->
+            <div class="py-8">
+                <h2 class="title-2 text-3xl font-medium text-gray-700 text-center pb-4">Visual Design</h2>
+                <p class="para-2 text-center text-[17px] text-gray-500">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+            </div>
+        </div>
+        
+        <div class="basis-[28%]">
+            <div class="flex m-auto justify-center items-center h-[150px] w-[150px] bg-[#009379] rounded-tr-4xl rounded-bl-4xl">
+            <!-- Arrow Container -->
+            <div class="flex items-center w-[100px] h-[50px] rotate-135 relative -left-2 -bottom-2">
+                <div class="-rotate-225 w-0 h-0 border border-t-0 border-r-[3px] border-b-[3px] border-l-0 inline-block p-[3px] mr-[-8px]"></div>
+                <div class="w-[80%] h-[2px] bg-black"></div>
+                <div class="w-0 h-0 border border-t-[5px] border-b-[3px] border-l-[5px]"></div>
+            </div>
+            </div>
+            <!-- Features Content -->
+            <div class="py-8">
+                <h2 class="title-2 text-3xl font-medium text-gray-700 text-center pb-4">Art Direction</h2>
+                <p class="para-2 text-center text-[17px] text-gray-500 ">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Latest Work -->
+
+<section class="max-w-[95vw] m-auto md:py-14" >
+    <div> 
+        <h2 class="title-2 text-center text-4xl font-medium text-gray-700 pb-14">Latest Work</h2>
+    </div>
+
+    <div class="grid md:grid-cols-4 grid-rows-2 m-auto gap-6">
+        <div class="">
+            <div><img src="./Images/Image.png" alt=""></div>
+            <div>
+                <h3 class="title-2 text-xl text-gray-700 font-[700] my-5">Project Title</h3>
+                <h4 class="para-2 text-gray-700 text-lg">UI, Art Direction</h4>
+            </div>
+        </div>
+        <div class="">
+            <div><img src="./Images/Image (1).png" alt=""></div>
+            <div>
+                <h3 class="title-2 text-xl text-gray-700 font-[700] my-5">Project Title</h3>
+                <h4 class="para-2 text-gray-700 text-lg">UI, Art Direction</h4>
+            </div>
+        </div>
+        <div class="">
+            <div><img src="./Images/Image (2).png" alt=""></div>
+            <div>
+                <h3 class="title-2 text-xl text-gray-700 font-[700] my-5">Project Title</h3>
+                <h4 class="para-2 text-gray-700 text-lg">UI, Art Direction</h4>
+            </div>
+        </div>
+        <div class="">
+            <div><img  src="./Images/Image (3).png" alt=""></div>
+            <div>
+                <h3 class="title-2 text-xl text-gray-700 font-[700] my-5">Project Title</h3>
+                <h4 class="para-2 text-gray-700 text-lg">UI, Art Direction</h4>
+            </div>
+        </div>
+        <div class=" col-span-2">
+            <div><img class="max-h-[150px] md:max-h-[300px] object-cover w-full" src="./Images/Image (4).png" alt=""></div>
+            <div>
+                <h3 class="title-2 text-xl text-gray-700 font-[700] my-5">Project Title</h3>
+                <h4 class="para-2 text-gray-700 text-lg">UI, Art Direction</h4>
+            </div>
+        </div>
+        <div class=" col-span-2">
+            <div><img class="max-h-[150px] md:max-h-[300px] object-cover w-full" src="./Images/Image (5).png" alt=""></div>
+            <div>
+                <h3 class="title-2 text-xl text-gray-700 font-[700] my-5">Project Title</h3>
+                <h4 class="para-2 text-gray-700 text-lg">UI, Art Direction</h4>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Testimonial -->
+
+<section class="max-w-[95vw] m-auto py-20 md:py-14 ">
+    <div> 
+        <h2 class="title-2 text-center text-3xl md:text-4xl  font-medium text-gray-700 pb-14">Testimonial</h2>
+    </div>
+
+    <div class="grid grid-rows-1 md:grid-cols-4 m-auto gap-6">
+        <div class="bg-[#F3F3F3] p-12">
+            <div><h3 class="title-2 text-[15px] md:text-xl font-medium text-gray-800">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h3></div>
+            
+            <div class="flex flex-row gap-4 mt-14">
+                <div><img src="./Images/Client Image.png" alt=""></div>
+                <div>
+                
+                    <!-- Icon -->
+           <div class="flex items-center">
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 ms-1 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+           </div>
+
+                <h3 class="title-2 text-[15px] md:text-xl text-gray-700 font-[700] my-2">Gemma Nolen</h3>
+                <h4 class="para-2 text-gray-700 text-[15px] md:text-lg">Google</h4>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bg-[#F3F3F3] p-12">
+            <div><h3 class="title-2 text-[15px] md:text-xl font-medium text-gray-800">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h3></div>
+            
+            <div class="flex flex-row gap-4 mt-14">
+                <div><img src="./Images/Client Image.png" alt=""></div>
+                <div>
+                    <!-- Icon -->
+                    <div class="flex items-center">
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 ms-1 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+           </div>
+
+                <h3 class="title-2 text-[15px] md:text-xl text-gray-700 font-[700] my-2">Gemma Nolen</h3>
+                <h4 class="para-2 text-gray-700 text-[15px] md:text-lg">Google</h4>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bg-[#F3F3F3] p-12">
+            <div><h3 class="title-2 text-[15px] md:text-xl font-medium text-gray-800">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h3></div>
+            
+            <div class="flex flex-row gap-4 mt-14">
+                <div><img src="./Images/Client Image.png" alt=""></div>
+                <div>
+                    <!-- Icon -->
+                    <div class="flex items-center">
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 ms-1 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+           </div>
+
+                <h3 class="title-2 text-[15px] md:text-xl text-gray-700 font-[700] my-2">Gemma Nolen</h3>
+                <h4 class="para-2 text-gray-700 text-[15px] md:text-lg">Google</h4>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bg-[#F3F3F3] p-12">
+            <div><h3 class="title-2 text-[15px] md:text-xl font-medium text-gray-800">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h3></div>
+            
+            <div class="flex flex-row gap-4 mt-14">
+                <div><img src="./Images/Client Image.png" alt=""></div>
+                <div>
+                    <!-- Icon -->
+                    <div class="flex items-center">
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 ms-1 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+           </div>
+
+                <h3 class="title-2 text-[15px] md:text-xl text-gray-700 font-[700] my-2">Gemma Nolen</h3>
+                <h4 class="para-2 text-gray-700 text-[15px] md:text-lg">Google</h4>
+                </div>
+            </div>
+            
+        </div>
+
+       <div class="bg-[#F3F3F3] p-12 md:col-span-2">
+            <div><h3 class="title-2 text-[15px] md:text-xl font-medium text-gray-800">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h3></div>
+            
+            <div class="flex flex-row gap-4 mt-14">
+                <div><img src="./Images/Client Image.png" alt=""></div>
+                <div>
+                    <!-- Icon -->
+                    <div class="flex items-center">
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 ms-1 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+           </div>
+
+                <h3 class="title-2 text-[15px] md:text-xl text-gray-700 font-[700] my-2">Gemma Nolen</h3>
+                <h4 class="para-2 text-gray-700 text-[15px] md:text-lg">Google</h4>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="bg-[#F3F3F3] p-12 md:col-span-2">
+            <div><h3 class="title-2 text-[15px] md:text-xl font-medium text-gray-800">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</h3></div>
+            
+            <div class="flex flex-row gap-4 mt-14">
+                <div><img src="./Images/Client Image.png" alt=""></div>
+                <div>
+                    <!-- Icon -->
+                    <div class="flex items-center">
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 text-gray-800 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+    <svg class="w-4 h-4 ms-1 text-gray-800 dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+    </svg>
+           </div>
+                
+                <h3 class="title-2 text-[15px] md:text-xl text-gray-700 font-[700] my-2">Gemma Nolen</h3>
+                <h4 class="para-2 text-gray-700 text-[15px] md:text-lg">Google</h4>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="max-w-[92vw] m-auto">
+    <div class="flex flex-wrap gap-5 md:gap-40 flex-row py-10">
+        <div class="basis-[50%]">
+            <div>
+                <h3 class="title-2 text-2xl md:text-3xl font-bold text-gray-700">Lets work together</h3>
+                <p class="para-2 text-[15px] md:text-[18px] text-gray-600 py-5">This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com This is a template Figma file, turned into code using Anima. Learn more at AnimaApp.com</p>
+                <div class="flex gap-5 py-6">
+            <i class="fa-brands fa-twitch text-3xl"></i>
+            <i class="fa-brands fa-square-facebook text-4xl"></i>
+            <i class="fa-brands fa-instagram text-4xl"></i>
+            <i class="fa-brands fa-behance text-4xl"></i>
+            <i class="fa-brands fa-dribbble text-3xl"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="basis-[40%]">
+            <div class="flex flex-col flex-wrap gap-2 md:gap-4">
+                <input type="text" name="name" id="name" placeholder="Name" class="title-2 block min-w-0 grow max-w-[90vw] bg-[#F3F3F3] py-4 md:pl-6 md:pr-64 pl-2 pr-2 placeholder:text-gray-800 font-[500] ">
+           <input type="text" name="email" id="email" placeholder="Email" class="title-2 block min-w-0 grow max-w-[90vw] bg-[#F3F3F3] py-4 pl-6 pr-64 placeholder:text-gray-800 font-[500] ">
+           <button class="title-2 py-3 md:py-5 px-5 md:px-10 self-start bg-gray-900 text-white font-medium text-xl ">Submit</button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<footer class="bg-white rounded-lg py-4 title-2">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between text-gray-900">
+      <span class="text-sm text-gray-500 sm:text-center ">© 2023 <a href="https://example.com/" class="hover:underline">Qamar™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500  sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+<script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+
+    btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
